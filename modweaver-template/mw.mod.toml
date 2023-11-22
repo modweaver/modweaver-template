@@ -1,0 +1,11 @@
+dependencies = []
+incompatibilities = []
+
+[metadata]
+id = "com.example.mod"
+version = "1.0.0"
+title = "Example Mod"
+authors = [
+    "Ecorous"
+]
+game_version = 1.4
