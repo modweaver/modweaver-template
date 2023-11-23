@@ -1,6 +1,5 @@
 ﻿using HarmonyLib;
 using modweaver.core;
-using NLog;
 
 namespace modweaver_template
 {
@@ -35,7 +34,7 @@ namespace modweaver_template
         }
     }
     
-    // no more laser cubes! this stops laser cubes from firing their beams. you can do whatever you want this this.
+    // no more laser cubes! this stops laser cubes from firing their beams. you can do whatever you want with this.
     [HarmonyPatch(typeof(LaserCube), nameof(LaserCube.ActivateBeams))]
     public static class NoMoreLaserCubes
     {
