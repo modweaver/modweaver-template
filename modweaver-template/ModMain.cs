@@ -3,6 +3,7 @@ using modweaver.core;
 
 namespace modweaver_template
 {
+    [ModMainClass]
     public class ModMain : Mod
     {
         public override void Init()
