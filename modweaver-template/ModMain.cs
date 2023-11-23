@@ -13,7 +13,7 @@ namespace modweaver_template
             Logger.Info("Loading {0} v{1} by {2}!", Metadata.title, Metadata.version,
                 string.Join(", ", Metadata.authors));
             
-            // this section currently patches any [HarmonyPatch]s you use, like the one named NoMoreLaserCubs below. if you don't patch anything, you can remove these
+            // this section currently patches any [HarmonyPatch]s you use, like the one named NoMoreLaserCubes below. if you don't patch anything, you can remove these
             // you should keep the logging messages as they help users and developers with debugging
             Logger.Debug("Setting up patcher...");
             Harmony harmony = new Harmony(Metadata.id); 
