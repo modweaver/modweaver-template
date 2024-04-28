@@ -5,7 +5,8 @@ incompatibilities = []
 id = "com.example.mod"
 version = "1.0.0"
 title = "Example Mod"
+description = "Example mod for spiderheck"
 authors = [
-    "Ecorous"
+    "Me!"
 ]
-game_version = 1.4
+game_version = 1.6
